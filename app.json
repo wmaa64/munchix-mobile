@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "munchix-mobile",
+    "slug": "munchix-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "API_BASE_URL": "https://munchix.vercel.app/",
+      "eas": {
+        "projectId": "abfbef4c-4661-4e2d-b937-756966967609"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.android.munchix",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.android.munchix"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
